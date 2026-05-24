@@ -1,5 +1,3 @@
-# Homebrew formula template for Small Harness.
-
 class SmallHarness < Formula
   desc "Terminal-based agent harness for running small LLMs on your Mac"
   homepage "https://github.com/GetSmallAI/SmallHarness"
