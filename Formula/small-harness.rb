@@ -5,12 +5,12 @@ class SmallHarness < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/GetSmallAI/SmallHarness/releases/download/v0.3.0/small-harness-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d1a178cfb8dab4af1b6074424bd83ca7cda24c60a370b7c847b1b147abff339d"
+      url "https://github.com/GetSmallAI/SmallHarness/releases/download/v0.4.2/small-harness-v0.4.2-aarch64-apple-darwin.tar.gz"
+      sha256 "38a7e449237ecf747b02e4efface38b7ff8e2c2823d42e7f42bc722e8fc8bc51"
     end
     on_intel do
-      url "https://github.com/GetSmallAI/SmallHarness/releases/download/v0.3.0/small-harness-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "96d377b9c6a1779a6041f91cd6c9c17e08ec42ef5aa822de85643e935c980393"
+      url "https://github.com/GetSmallAI/SmallHarness/releases/download/v0.4.2/small-harness-v0.4.2-x86_64-apple-darwin.tar.gz"
+      sha256 "7f7dc39abf59bc49f9f3a1958e0a70f6bd32e3ea7f8293085659dae90b77bc71"
     end
   end
 
