@@ -2,17 +2,17 @@
 class SmallHarness < Formula
   desc "Terminal-based agent harness for running small LLMs on your Mac"
   homepage "https://github.com/GetSmallAI/SmallHarness"
-  version "0.6.0"
+  version "0.6.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/GetSmallAI/SmallHarness/releases/download/v0.6.0/small-harness-v0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a2641725b6cc77243631b3dbf844f363a75b31c9702e0b607d2780f04ac28df1"
+      url "https://github.com/GetSmallAI/SmallHarness/releases/download/v0.6.1/small-harness-v0.6.1-aarch64-apple-darwin.tar.gz"
+      sha256 "696db4eb751b7b7dc761a9e697139f963c08ad3e8f02bd6f1fcaec5b51043c58"
     end
     on_intel do
-      url "https://github.com/GetSmallAI/SmallHarness/releases/download/v0.6.0/small-harness-v0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "76d5c9c0c150fe70007b8362e497f5f1e6d54ac3e042aa43f539e77869ba5fc7"
+      url "https://github.com/GetSmallAI/SmallHarness/releases/download/v0.6.1/small-harness-v0.6.1-x86_64-apple-darwin.tar.gz"
+      sha256 "bf17fc92f40cf6d79dec5db506ff09df86300af7436a795206ccb5eee796ddcc"
     end
   end
 
